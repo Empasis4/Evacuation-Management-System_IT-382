@@ -1,0 +1,14 @@
+{
+  "name": "CleanArchitectureOrchestrator",
+  "description": "Enforces strict Clean Architecture, SOLID principles, and production-grade engineering standards.",
+  "version": "1.0.0",
+  "capabilities": [
+    "Domain-Driven Design",
+    "Layered Architecture Enforcement",
+    "SOLID Principles Audit",
+    "Intent-Based Documentation",
+    "Production-Grade Error Handling"
+  ],
+  "author": "Antigravity Senior Protocol",
+  "tags": ["architecture", "scaling", "maintenance", "typescript", "production"]
+}
