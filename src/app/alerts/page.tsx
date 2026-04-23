@@ -53,9 +53,10 @@ export default function AlertsPage() {
   const toggle = (id: string) => setSelectedIds(p => p.includes(id) ? p.filter(x => x !== id) : [...p, id]);
 
   const TEMPLATES = {
+    0: "[EVACSYS BUTUAN] STATUS: All clear. Conditions have returned to safe levels.",
     1: "[EVACSYS BUTUAN] WARNING: Heavy rain/wind detected in your sector. Please monitor local conditions and stay alert for further updates.",
     2: "[EVACSYS BUTUAN] CRITICAL: Severe weather conditions incoming. Prepare your emergency kits and be ready for possible evacuation instructions.",
-    3: "🚨 ALERT! 🚨 ALERT! 🚨\n[!!! SIREN ACTIVATED !!!]\n\n[EVACSYS BUTUAN] EMERGENCY: IMMEDIATE EVACUATION REQUIRED! Click link to activate your phone SIREN: http://localhost:3000/siren \n\nEVACUATE NOW!",
+    3: "🚨 ALERT! 🚨 ALERT! 🚨\n[!!! FLASH ALERT !!!]\n\n[EVACSYS BUTUAN] EMERGENCY: IMMEDIATE EVACUATION REQUIRED! Click link to activate your phone SIREN: http://localhost:3000/siren \n\nEVACUATE IMMEDIATELY!",
   };
 
   const handleLevelChange = (newLevel: AlertLevel) => {
